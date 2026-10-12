@@ -1,0 +1,138 @@
+# ==============================================================================
+# .gitignore for Personal Knowledge Base (kbase)
+# Optimized for Windows 11, Arch Linux, Android (Termux), and GitHub
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Critical Security: Secrets, Credentials, and Private Keys
+# ------------------------------------------------------------------------------
+# Never commit tokens, credentials, or private keys to the repository
+*.env
+*.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+*.pkcs12
+*.crt
+*.csr
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.kdbx
+credentials.json
+client_secret*.json
+token.json
+token.txt
+*.token
+auth.json
+secrets.yaml
+secrets.yml
+
+# ------------------------------------------------------------------------------
+# 2. Operating System Artifacts
+# ------------------------------------------------------------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msu
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux / Unix
+*~
+.directory
+.Trash-*
+
+# Android / Termux
+.termux/
+*.apk
+*.apks
+
+# ------------------------------------------------------------------------------
+# 3. Editor and IDE State Files
+# ------------------------------------------------------------------------------
+# VS Code / VSCodium (exclude workspace state, keep recommendations if needed)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains / Obsidian / Other editors
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.#*
+\#*#
+.helix/
+.sublime-project
+.sublime-workspace
+.obsidian/
+
+# ------------------------------------------------------------------------------
+# 4. Synchronization and Runtime Locks
+# ------------------------------------------------------------------------------
+# Sync lock directories and logs
+.git/kbase-sync-lock/
+*.lock
+sync.log
+*.sync-conflict-*
+*.conflict
+
+# ------------------------------------------------------------------------------
+# 5. Sensitive Investigation Artifacts & Heavy Binaries
+# (Forensic raw dumps, packet captures, memory images must not be in git)
+# ------------------------------------------------------------------------------
+*.pcap
+*.pcapng
+*.cap
+*.mem
+*.raw
+*.dmp
+*.dump
+*.vmdk
+*.vdi
+*.qcow2
+*.iso
+*.img
+*.vhdx
+*.evtx
+
+# ------------------------------------------------------------------------------
+# 6. Build Outputs, Caches, and Temporary Files
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+dist/
+build/
+*.tmp
+*.temp
+*.bak
+*.orig
+scratch/
