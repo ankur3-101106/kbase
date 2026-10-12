@@ -18,15 +18,15 @@
 
 ## 2. Quick Navigation
 
-| Document | Purpose |
-| :--- | :--- |
-| **[`HOME.md`](HOME.md)** | **Primary Navigation Hub** — Start here for daily navigation, topical index, capture links, and search tips. |
-| **[`CONTRIBUTING.md`](CONTRIBUTING.md)** | **Taxonomy & Standards** — Frontmatter schema, naming conventions, note lifecycles, and security guidelines. |
-| **[`COMMIT.md`](COMMIT.md)** | **Git & Push Guide** — Conventional commit conventions, pre-commit checklist, and push workflow. |
-| **[`inbox/`](inbox/README.md)** | **Zero-Friction Capture** — Drop untriaged thoughts, URLs, and quick snippets here (<30s mobile workflow). |
-| **[`templates/`](templates/README.md)** | **Reusable Templates** — 10 standardized templates for concepts, troubleshooting, labs, procedures, and projects. |
-| **[`procedures/`](procedures/README.md)** | **Actionable SOPs** — Step-by-step operational procedures, sync conflict resolution, and checklists. |
-| **[`knowledge/`](knowledge/README.md)** | **Core Knowledge Library** — Topical documentation across cybersecurity, systems, education, and programming. |
+| Document                                  | Purpose                                                                                                           |
+| :---------------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| **[`HOME.md`](HOME.md)**                  | **Primary Navigation Hub** — Start here for daily navigation, topical index, capture links, and search tips.      |
+| **[`CONTRIBUTING.md`](CONTRIBUTING.md)**  | **Taxonomy & Standards** — Frontmatter schema, naming conventions, note lifecycles, and security guidelines.      |
+| **[`COMMIT.md`](COMMIT.md)**              | **Git & Push Guide** — Conventional commit conventions, pre-commit checklist, and push workflow.                  |
+| **[`inbox/`](inbox/README.md)**           | **Zero-Friction Capture** — Drop untriaged thoughts, URLs, and quick snippets here (<30s mobile workflow).        |
+| **[`templates/`](templates/README.md)**   | **Reusable Templates** — 10 standardized templates for concepts, troubleshooting, labs, procedures, and projects. |
+| **[`procedures/`](procedures/README.md)** | **Actionable SOPs** — Step-by-step operational procedures, sync conflict resolution, and checklists.              |
+| **[`knowledge/`](knowledge/README.md)**   | **Core Knowledge Library** — Topical documentation across cybersecurity, systems, education, and programming.     |
 
 ---
 
